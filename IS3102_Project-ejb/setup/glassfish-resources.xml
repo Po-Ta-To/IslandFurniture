@@ -10,5 +10,5 @@
         <property name="URL" value="jdbc:mysql://localhost:3306/islandfurniture-it07?zeroDateTimeBehavior=convertToNull"/>
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </jdbc-connection-pool>
-    <jdbc-resource enabled="true" jndi-name="jdbc/islandfurniture-it07" object-type="user" pool-name="mysql_islandfurniture-it07_rootPool"/>
+    <jdbc-resource enabled="true" jndi-name="jdbc/islandfurniture" object-type="user" pool-name="mysql_islandfurniture_rootPool"/>
 </resources>
