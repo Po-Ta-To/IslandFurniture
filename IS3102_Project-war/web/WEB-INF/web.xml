@@ -1105,6 +1105,10 @@
         <servlet-name>Store_StorageBinManagement_Servlet</servlet-name>
         <servlet-class>A7_servlets.Store_StorageBinManagement_Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ECommerce_GetMember</servlet-name>
+        <servlet-class>B_servlets.ECommerce_GetMember</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PurchaseOrderManagement_Servlet</servlet-name>
         <url-pattern>/PurchaseOrderManagement_Servlet</url-pattern>
@@ -2204,6 +2208,10 @@
     <servlet-mapping>
         <servlet-name>Store_StorageBinManagement_Servlet</servlet-name>
         <url-pattern>/Store_StorageBinManagement_Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ECommerce_GetMember</servlet-name>
+        <url-pattern>/ECommerce_GetMember</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>30</session-timeout>
