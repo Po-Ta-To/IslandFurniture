@@ -57,7 +57,7 @@ public class ECommerce_StockAvailability extends HttpServlet {
 
     public int getQuantity(Long storeID, String SKU) {
         try {
-            System.out.println("getQuantity() SKU: " + SKU);
+            System.out.println("getQuantity() SKU: " + SKU + " Store ID : " + storeID);
             Client client = ClientBuilder.newClient();
             WebTarget target = client
                     .target("http://localhost:8080/IS3102_WebService-Student/webresources/entity.storeentity")
